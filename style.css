@@ -1,0 +1,67 @@
+/* 共通 css */
+:root {
+    --main-bg-color: #EFEDED;
+    --sub-bg-color: #FFFFFF;
+    --font-color: #35383A;
+}
+* {
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+body {
+    /* https://ics.media/entry/200317/#各osのフォント指定はどれがいいか */
+    font-family: "Noto Serif JP", serif,
+        "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    margin: unset;
+}
+img {
+    width: 100%;
+}
+h2, h3, p {
+    margin: unset;
+    padding: unset;
+}
+/* figma フォントの太さ：
+Thin (100), Light(300), Regular (400), Medium (500), Bold (600) */
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--font-color);
+}
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--font-color);
+}
+p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--font-color);
+}
+a, a:visited {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--font-color);
+}
+div.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+div.inner_container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* 狭い画面向けの既定の CSS レイアウト値 */
+
+
+/* 広い画面向けの CSS */
+@media (min-width: 1100px) {
+}
