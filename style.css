@@ -63,7 +63,7 @@ a, a:visited {
     display: inline-block;
 }
 div.container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
 }
 div.text_area {
