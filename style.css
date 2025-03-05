@@ -63,7 +63,8 @@ a, a:visited {
     display: inline-block;
 }
 div.container {
-    /* max-width: 1000px; */
+    max-width: 1000px;
+    min-height: 665px;
     margin: 0 auto;
 }
 div.text_area {
@@ -79,7 +80,7 @@ div.text_area {
 /* 広い画面向けの CSS */
 @media (min-width: 1000px) {
 div.container {
-    position: relative;
+    /* position: relative; */
 }
 div.text_area {
     padding: 84px 163px 84px 84px;
