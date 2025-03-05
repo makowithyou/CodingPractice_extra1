@@ -64,7 +64,6 @@ a, a:visited {
 }
 div.container {
     max-width: 1000px;
-    min-height: 665px;
     margin: 0 auto;
 }
 div.text_area {
@@ -80,19 +79,19 @@ div.text_area {
 /* 広い画面向けの CSS */
 @media (min-width: 1000px) {
 div.container {
-    /* position: relative; */
+    height: 665px;
+    margin: 100px auto;
+    position: relative;
 }
 div.text_area {
     padding: 84px 163px 84px 84px;
     position: absolute;
-    top: 100px;
-    left: 140px;
 }
 img {
     width: 420px;
     height: 400px;
     position: absolute;
-    top: 240px;
-    right: 140px;
+    top: 140px;
+    right: 0;
 }
 }
